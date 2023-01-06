@@ -3,8 +3,8 @@ let req= require('./calcule')
 let argum = process.argv.slice(2)
 
 
-let a  = argum[1];
-let b = argum[2];
+let a  = Number(argum[1]);
+let b = Number(argum[2]);
 let c = ''
 
 
