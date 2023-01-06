@@ -1,4 +1,4 @@
-let req= require('./cal') 
+let req= require('./calcule') 
 
 let argum = process.argv.slice(2)
 
