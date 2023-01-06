@@ -1,5 +1,4 @@
 
-module.exports = cal
 
 let cal = {
     soma: ((x, y) => {
@@ -15,3 +14,4 @@ let cal = {
         return x / y
     }),
 }
+module.exports = cal
