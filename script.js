@@ -19,3 +19,4 @@ if(argum[0] === 's'){
 }else if(argum[0] === 'd'){
     c = req.div(a,b)
 }
+console.log(c);
