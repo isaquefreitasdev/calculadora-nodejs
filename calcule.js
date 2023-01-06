@@ -1,3 +1,6 @@
+
+module.exports = cal
+
 let cal = {
     soma: ((x, y) => {
         return x + y
