@@ -11,11 +11,11 @@ let c = ''
 
 
 if(argum[0] === 's'){
-    c = cal.soma(a,b)
+    c = req.soma(a,b)
 }else if(argum[0] === '-'){
-    c = cal.dim(a,b)
+    c = req.dim(a,b)
 }else if(argum[0] === 'm'){
-    c = cal.mult(a,b)
+    c = req.mult(a,b)
 }else if(argum[0] === 'd'){
-    c = cal.div(a,b)
+    c = req.div(a,b)
 }
